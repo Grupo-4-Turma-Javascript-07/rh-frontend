@@ -5,13 +5,13 @@ function Home() {
         <>
             <div className=" min-h-screen bg-background flex justify-center">
                 <div className='container grid grid-cols-2  text-nav-footer'>
-                    <div className="flex flex-col gap-4 items-center justify-center py-4">
-                        <h2 className='text-5xl font-bold bg-'>
+                    <div className="flex flex-col gap-4 items-center justify-center py-4 px-9 ">
+                        <h2 className='text-4xl font-bold text-nav-footer'>
                             RH Generation
                         </h2>
-                        <p className='text-xl'>
+                        <p className='text-lg'>
                             Gerencie sua equipe com mais eficiência, organização e praticidade.
-                            Aqui você encontra tudo o que precisa para administrar dados de colaboradores, acompanhar desempenho, controlar benefícios e muito mais — tudo em um só lugar.
+                            Aqui você encontra tudo o que precisa para administrar dados de colaboradores, acompanhar desempenho, controlar benefícios e muito mais, tudo em um só lugar.
                         </p>
                     </div>
 
