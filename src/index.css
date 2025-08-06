@@ -11,6 +11,10 @@
   --font-family-texto: 'Nunito', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
   background-color: var(--color-background);
   font-family: var(--font-family-texto);
