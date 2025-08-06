@@ -6,9 +6,11 @@
   --color-nav-footer: #274c77;
   --color-azul-medio: #6096ba;
   --color-azul-claro: #a3cef1;
+}
 
-  --font-titulo: 'Poppins', sans-serif;
-  --font-texto: 'Nunito', sans-serif;
+:root {
+  --font-titulo: 'Poppins', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  --font-texto: 'Nunito', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 body {
