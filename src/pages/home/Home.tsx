@@ -3,7 +3,7 @@ import RH from "../../assets/RH.svg"
 function Home() {
     return (
         <>
-            <div className=" min-h-screen bg-background flex justify-center">
+            <div className=" min-h-screen bg-background flex justify-center scroll-mt-20">
                 <div className='container grid grid-cols-2  text-nav-footer'>
                     <div className="flex flex-col gap-4 items-center justify-center py-4 px-9 ">
                         <h2 className='text-4xl font-bold text-nav-footer'>
