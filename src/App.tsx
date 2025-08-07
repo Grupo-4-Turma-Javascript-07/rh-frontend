@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+
 import Sobre from "./components/sobre/Sobre";
 
 function App() {
@@ -10,5 +11,4 @@ function App() {
     </>
   );
 }
-
 export default App;

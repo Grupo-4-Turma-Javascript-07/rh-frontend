@@ -1,3 +1,4 @@
+
 function Igor() {
   return (
     <div className='p-4 flex items-center justify-center gap-4'>
@@ -21,7 +22,6 @@ function Igor() {
       </p>
       </div>
       </div>
-    
   )
 }
 

@@ -31,7 +31,7 @@ const membros: Membro[] = [
     foto: "https://i.imgur.com/7Yk4MDt.jpeg", 
     saibaMais: < Edu />
     },
-    { 
+    {
     nome: "Igor", 
     linkedin: "https://www.linkedin.com/in/igorpardinholima/", 
     github: "https://github.com/igorpardinho", 
