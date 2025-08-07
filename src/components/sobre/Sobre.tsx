@@ -71,22 +71,9 @@ const membros: Membro[] = [
 function Sobre() {
   return (
     <div 
-    id='sobre' className='min-h-screen bg-background'>
-      <header className='bg-nav-footer text-white flex justify-between items-center px-8 py-4'>
-        <div>
-          <h1 className='text-xl font-family-titulo'>RH Generation</h1>
-          <p className='text-sm'>GRUPO 04</p>
-        </div>
-        <nav className='space-x-4'>
-          <a href='#home' className='hover:underline'>Home</a>
-          <a href='#sobre' className='underline font-family-texto'>Sobre Nós</a>
-          <a href='#servicos' className='hover:underline'>Servicos</a>
-        </nav>
-      </header>
+    id='sobre' className='min-h-screen scroll-mt-20 bg-background'>
       <main className="py-10 px-4"></main>
       <h2 className='text-3xl text-center font-family-texto text-nav-footer mb-8'>Sobre Nós</h2>
-
-{/* CARDS */}
 
       <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
         {membros.map((membro, index) => (
