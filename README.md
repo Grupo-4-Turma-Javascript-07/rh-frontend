@@ -2,8 +2,8 @@
 
 Interface web do projeto Sistema de Recursos Humanos (RH), desenvolvido como parte do Projeto Integrador – Desafio 1 (Frontend) da Generation Brasil.
 
-🔗 Repositório do Backend:
-https://github.com/Grupo-4-Turma-Javascript-07/rh-backend
+🔗 Repositório:
+https://github.com/Grupo-4-Turma-Javascript-07/rh-frontend
 ---
 
 ## 📌 Descrição Geral
