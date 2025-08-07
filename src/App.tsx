@@ -1,19 +1,24 @@
+
 import Navbar from "./components/navbar/Navbar";
-import Home from "./pages/home/Home";
-import Servicos from "./pages/servicos/Servicos";
-import Sobre from "./pages/sobre/Sobre";
+import Home from "./components/home/Home"
+import Sobre from "./components/sobre/Sobre"
+import Footer from "./components/footer/Footer";
+import Servico from "./components/servicos/Servico";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <main className="pt-20">
+      <BrowserRouter>
+        <Navbar />
+        <main className="pt-20">
         <Home />
         <Sobre />
-        <Servicos />
-      </main>
+        <Servico />
+        </main>
+      </BrowserRouter>
+      <Footer />
     </>
-  )
+  );
 }
-
-export default App
+export default App;
