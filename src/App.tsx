@@ -1,7 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
+import Sobre from "./components/sobre/Sobre";
+
 function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <BrowserRouter>
+        <Sobre />
+      </BrowserRouter>
+    </>
+  );
 }
 
-export default App
+export default App;
