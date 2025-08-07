@@ -1,6 +1,6 @@
 function Servico() {
   return (
-    <div className="min-h-screen flex flex-col scroll-mt-20">
+    <div id="servicos" className="min-h-screen flex flex-col scroll-mt-20">
       <main className="flex-1 bg-background px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-nav-footer">
           <section className="bg-white rounded-lg shadow-md p-6">
