@@ -126,7 +126,7 @@ function Sobre() {
             </p>
             <button
             className="mt-4 px-4 py-1 rounded-full font-family-texto text-white
-              bg-azul-medio hover:bg-color-azul-footer 
+              bg-azul-medio hover:bg-nav-footer 
               transition-colors cursor-pointer"
             style={{ fontFamily: 'var(--font-family-texto)' }}
             >
