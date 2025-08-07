@@ -1,7 +1,8 @@
 import Home from './pages/home/Home'
-import { BrowserRouter } from "react-router-dom";
 import Sobre from "./components/sobre/Sobre"
+import Footer from "./components/footer/Footer";
 import Servico from "./components/servicos/Servico";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Sobre />
         <Servico />
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
