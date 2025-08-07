@@ -80,7 +80,7 @@ function Sobre() {
         <nav className='space-x-4'>
           <a href='#home' className='hover:underline'>Home</a>
           <a href='#sobre' className='underline font-family-texto'>Sobre Nós</a>
-          <a href='#contato' className='hover:underline'>Contato</a>
+          <a href='#servicos' className='hover:underline'>Servicos</a>
         </nav>
       </header>
       <main className="py-10 px-4"></main>
